@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+  background: url("./workshop-2Kqhw3qST0o-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dark-overlay .container-fluid {
+  font-weight: 25px;
+  font-weight: 500;
+}
+.dark-overlay .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+}
+.container {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.container p {
+  font-size: 55px;
+  font-weight: 600;
+  text-shadow: 4px 4px 4px #030303;
+  color: aliceblue;
+}
+.container button {
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  border-color: rgb(15, 15, 15);
+  background-color: rgb(124, 129, 129);
+  color: rgb(12, 12, 12);
+}
+.container button:hover {
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  border-color: rgb(202, 200, 200);
+  background-color: rgb(21, 22, 22);
+  color: rgb(179, 173, 173);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
