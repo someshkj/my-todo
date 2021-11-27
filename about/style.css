@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #8e0e00 0%, #1f1c18 100%);
+}
+.container-fluid {
+  font-weight: 25px;
+  font-weight: 500;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar-light .navbar-toggler{
+  border: none;
+}
+header {
+  font-size: 6rem;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 20px;
+  color: #1f1c18;
+  text-shadow: 2px 2px 2px #a09e9e;
+}
+span {
+  color: #8e0e00;
+  text-shadow: none;
+}
+.container {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.first {
+  margin-right: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.first #fisth1 {
+  color: whitesmoke;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.first h1 {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 600;
+}
+.first h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(245, 245, 245, 0.76);
+}
+.first hr {
+  color: bisque;
+}
+.second img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  top: 10%;
+}
+
+@media (max-width: 991px) {
+
+  header {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first {
+    margin-top: 10px;
+  }
+  
+
+  .first h1 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 20px;
+    
+  }
+  .first #fisth1 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 20px;
+    text-align: justify;
+    
+
+  }
+  .first hr {
+    margin-left: 20px;
+  }
+  .first h3 {
+    margin-left: 18px;
+  }
+
+  .second img {
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+    left: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  header {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .first {
+    margin-top: 10px;
+  }
+  .first br{
+    display: none;
+  }
+
+  .first h1 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 20px;
+    text-align: justify;
+    
+  }
+  .first #fisth1 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 20px;
+    text-align: justify;
+    
+
+  }
+  .first hr {
+    margin-left: 20px;
+  }
+  .first h3 {
+    margin-left: 15px;
+  }
+
+  .second img {
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+    left: 70px;
+  }
+}

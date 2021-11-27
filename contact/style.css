@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(27409.png);
+}
+.container-fluid {
+  font-weight: 25px;
+  font-weight: 500;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+header {
+  font-size: 8rem;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0.6;
+  color: rgb(39, 222, 247);
+  text-shadow: 4px 4px 4px #070707;
+}
+
+.container {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  outline: none;
+  border: none;
+}
+
+.container p {
+  font-size: large;
+}
+
+.container .form-control {
+  background: none;
+}
+.container button {
+  justify-content: center;
+  font-size: 21px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.container button:hover {
+  font-size: 25px;
+  opacity: 1;
+}
+
+img {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 50%;
+  top: 350px;
+  z-index: -1;
+}
+
+.container .form-control::placeholder {
+  opacity: 1;
+  color: rgb(71, 71, 71);
+}
+
+@media (max-width: 991px) {
+  header {
+    font-size: 5rem;
+  }
+  .container {
+    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    position: relative;
+    height: 60%;
+    width: 60%;
+    left: 10%;
+    top: 60%;
+  }
+}
